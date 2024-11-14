@@ -1,0 +1,2 @@
+FROM savop_base
+RUN pip3 install pyroute2 -i https://mirrors.cloud.tencent.com/pypi/simple/
