@@ -39,10 +39,6 @@ The router implementation includes protocol definitions, filter instructions, an
 - iptables
 - dstat
 
-### Installation
-
-1. Clone the repository and we call the root directory of the project as `SAV_PLAYGROUND`
-2. Install the required dependencies using `pip install -r requirements.txt`
 ### Usage
 1. define your own topo for the experiment and place them into `sav_control/basic_configs`
 2. run the experiment using `python3 {SAV_PLAYGROUND}/sav_control/sav_control_master.py -e {your_config_file without .json}`
